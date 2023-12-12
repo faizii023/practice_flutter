@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 import 'package:practice/bottom_screens/bottom_bar_back.dart';
+import 'package:practice/example/ImagePlayG.dart';
 import 'package:practice/example/dropdown_page.dart';
+import 'package:practice/image_picker_screen.dart';
 import 'package:practice/list/expandable_list_view.dart';
 import 'package:practice/list/toggle_list_view.dart';
 import 'package:practice/modals/custom_modal.dart';
@@ -207,7 +209,8 @@ void isOpen(){
       // body: DropDownPage(),
       // body: SearchScreen(),
       // body: CustomModal(),
-      body: DynamicTextfieldsApp(),
+      // body: ImagePickerScreen(),
+      body: ImagePlayG(),
     );
   }
 }
